@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    schema: classpath:import.sql
+mybatis:
+#  config-location: classpath:mybatis-config.xml
+  typeAliasesPackage: cn.com.octopus.demos.mybatis.domain
+logging:
+  level:
+    root: WARN
+    cn.com.octopus.demos: TRACE
